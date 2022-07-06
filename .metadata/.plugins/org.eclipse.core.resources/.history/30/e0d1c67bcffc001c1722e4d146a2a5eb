@@ -1,0 +1,21 @@
+package codegym;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		int a = 4;
+		int b = 3;
+
+		// +1
+		a++;
+		System.out.println("After a++:" + a);
+
+		// -1
+		b--;
+		System.out.println("After b--:" + b);
+
+		// 餘數
+		System.out.println("a%b:" + a % b);
+	}
+
+}

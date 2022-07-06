@@ -1,0 +1,24 @@
+package codegym;
+
+public class HomeWork {
+
+	public static void main(String[] args) {
+		String json = "[{\"animal_id\":\"10305240201056\",\"animal_sex\":\"F\",\"animal_kind\":\"貓\",\"shelter_name\":\"台北動物之家\"},"
+				+ "{\"animal_id\":\"10508011005002\",\"animal_sex\":\"F\",\"animal_kind\":\"狗\",\"shelter_name\":\"台中流浪動物醫院\"}]";
+
+		System.out.println(json);
+		json = json.replace("[", "").replace("]", "");
+
+		String catData = json.substring(0, json.indexOf(",{")).replace("{", "").replace("}", "");
+//		String dogData = json.substring(json.indexOf(",{"), json.lastIndexOf("}")).replace(",{", "");
+		String dogData = json.replace(catData+"},", "").replace("{", "").replace("}", "");
+		System.out.println(catData);
+		System.out.println(dogData);
+		
+		String[] cat = catData.split(",");
+		String[] dog = dogData.split(",");
+		System.out.println(cat[0]);
+		System.out.println(dog[0]);
+	}
+
+}

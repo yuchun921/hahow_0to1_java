@@ -1,0 +1,25 @@
+package codegym;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		int a = 4;
+		int b = 3;
+
+		// +1 遞增
+		a++;
+		System.out.println("After a++:" + a);
+
+		// -1 遞減
+		b--;
+		System.out.println("After b--:" + b);
+
+		// 餘數
+		System.out.println("a%b: " + a % b);
+
+		// += or -=
+		a += b; // eaqul to a = a+b
+		System.out.println("a+=b: " + a);
+	}
+
+}
