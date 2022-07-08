@@ -1,0 +1,16 @@
+package 火影忍者;
+
+public class 六道仙人 {
+	
+	// "六道仙人"是"因陀螺"和"阿修羅"的爸爸
+	private String name = "名日羽衣";
+	
+	String skill1 = "仙人之眼"; // 因陀螺繼承
+	String skill2 = "仙人之體"; // 阿修羅繼承
+	
+	protected String skill3 = "拐杖";
+	
+	String getMyName() {
+		return name;
+	}
+}

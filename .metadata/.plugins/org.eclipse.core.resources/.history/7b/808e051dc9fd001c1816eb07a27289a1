@@ -1,0 +1,18 @@
+package 火影忍者;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		
+		/* Access control
+		 * - private:
+		 * 		同一個class
+		 * - default:
+		 * 		同一個class and package, 其他class可使用其屬性和方法
+		 * - protected:
+		 * 		同一個class and package, 不同套件子類別
+		 * - public:
+		 * 		都可以使用
+		 */
+		
+	}
+}

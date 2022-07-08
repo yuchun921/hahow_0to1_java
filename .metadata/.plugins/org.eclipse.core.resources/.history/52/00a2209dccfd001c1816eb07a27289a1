@@ -1,0 +1,7 @@
+package codegym;
+
+//inherit TestDemo
+public class subclass extends TestDemo{
+
+	
+}
