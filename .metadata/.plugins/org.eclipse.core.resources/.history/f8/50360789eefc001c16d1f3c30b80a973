@@ -1,9 +1,0 @@
-package codegym;
-
-public class TestDemo {
-	public static void main(String[] args) {
-		// replace(CharSquence a, CharSquence b): 將字串中的a替換成b
-		String str = "abCD123ABcd246";
-		System.out.println(str.replace("C", "0"));
-	}
-}
