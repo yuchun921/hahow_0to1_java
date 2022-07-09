@@ -1,35 +1,35 @@
-# ª«¥ó¾É¦V Objected-oriented programming
+# ç‰©ä»¶å°å‘ Objected-oriented programming
 
-- ´£°ª³nÅéªº­«¥Î©Ê(Reuse), ÆF¬¡©Ê, ÂX¥R¥\¯à©Ê
-- µ{¦¡¤¤ª«¥ó¥i¥H¤¬¬Û¦s¨ú¬ÛÃö¸ê®Æ
+- æé«˜è»Ÿé«”çš„é‡ç”¨æ€§(Reuse), éˆæ´»æ€§, æ“´å……åŠŸèƒ½æ€§
+- ç¨‹å¼ä¸­ç‰©ä»¶å¯ä»¥äº’ç›¸å­˜å–ç›¸é—œè³‡æ–™
 
-## ½¢¦X«× Coupling or Dependency
-- ª«¥ó¥»¨­¥i¥H¦Û¥Ñ­×§ï»PÅÜ¤Æ, ¥B¤£¼vÅT¨ä¥Lª«¥ó
-- ¥~³¡µ{¦¡­×§ï¤]¤£·|¼vÅT¨ìª«¥ó¥»¨­ªº¥\¯à¤Î¹B§@
-- ª«¥ó¤§¶¡ÁÙ­n¥i¥H¤¬¬Û¦X§@
+## è€¦åˆåº¦ Coupling or Dependency
+- ç‰©ä»¶æœ¬èº«å¯ä»¥è‡ªç”±ä¿®æ”¹èˆ‡è®ŠåŒ–, ä¸”ä¸å½±éŸ¿å…¶ä»–ç‰©ä»¶
+- å¤–éƒ¨ç¨‹å¼ä¿®æ”¹ä¹Ÿä¸æœƒå½±éŸ¿åˆ°ç‰©ä»¶æœ¬èº«çš„åŠŸèƒ½åŠé‹ä½œ
+- ç‰©ä»¶ä¹‹é–“é‚„è¦å¯ä»¥äº’ç›¸åˆä½œ
 
 ```text
-¼Ú·ù:
-	°ª½¢¦X«×²ÕÂ´
-	¨Ï¥Î¦PºØ³f¹ô, §â¦U­Ó°ê®aÃö«Y©Ôªº«Üºò±K, ­Y¦³¨ä¤@¦³°]°È¦M¾÷®É, ¨ä¾l·|­û°ê¤]·|¨ü¨ìÄY­«·l®`
+æ­ç›Ÿ:
+	é«˜è€¦åˆåº¦çµ„ç¹”
+	ä½¿ç”¨åŒç¨®è²¨å¹£, æŠŠå„å€‹åœ‹å®¶é—œä¿‚æ‹‰çš„å¾ˆç·Šå¯†, è‹¥æœ‰å…¶ä¸€æœ‰è²¡å‹™å±æ©Ÿæ™‚, å…¶é¤˜æœƒå“¡åœ‹ä¹Ÿæœƒå—åˆ°åš´é‡æå®³
 WTO
-	§C½¢¦X«×²ÕÂ´
-	¥u³W½d³¡¤À¼Ğ·Ç, ¦]¦¹¦U°ê¤§¶¡¥u­n²Å¦X¨äºÊ·ş¾÷¨î, ´N¥i¥H¤¬¬Û¦X§@
+	ä½è€¦åˆåº¦çµ„ç¹”
+	åªè¦ç¯„éƒ¨åˆ†æ¨™æº–, å› æ­¤å„åœ‹ä¹‹é–“åªè¦ç¬¦åˆå…¶ç›£ç£æ©Ÿåˆ¶, å°±å¯ä»¥äº’ç›¸åˆä½œ
 ```
 
 
-## Ãş§O»Pª«¥ó Object and Class
-- Ãş§O¬O©w¸qª«¥óªº¤@ºØ§ÎºA, ¨S¦³¹êÅé --> ³]­p¹Ï(ÂÅ¹Ï)
-	- Ãş§O¤U¦³¦Û¤vªºÄİ©Ê©M¤èªk
-- ª«¥ó¬O¬Y­ÓÃş§Oªº¹êÅé(instance) --> ¨Ì·Ó³]­p¹Ï°µ¥X¨ÓªºªF¦è
+## é¡åˆ¥èˆ‡ç‰©ä»¶ Object and Class
+- é¡åˆ¥æ˜¯å®šç¾©ç‰©ä»¶çš„ä¸€ç¨®å½¢æ…‹, æ²’æœ‰å¯¦é«” --> è¨­è¨ˆåœ–(è—åœ–)
+	- é¡åˆ¥ä¸‹æœ‰è‡ªå·±çš„å±¬æ€§å’Œæ–¹æ³•
+- ç‰©ä»¶æ˜¯æŸå€‹é¡åˆ¥çš„å¯¦é«”(instance) --> ä¾ç…§è¨­è¨ˆåœ–åšå‡ºä¾†çš„æ±è¥¿
 
 
-## «Ê¸Ë Encapsulation
-1.  ±N¡u¹ê§@¡v»P**¡u¥~³¡ª«¥ó·P¿³½ìªº¾Ş§@¤¶­±¡v**¤À¶}
+## å°è£ Encapsulation
+1.  å°‡ã€Œå¯¦ä½œã€èˆ‡ **ã€Œå¤–éƒ¨ç‰©ä»¶æ„Ÿèˆˆè¶£çš„æ“ä½œä»‹é¢ã€** åˆ†é–‹
 	```java  
 	public class Test{
-		// privateµLªkª½±µµ¹¥~³¡ªº¤H¨Ï¥Î
-		// ³z¹L¤U¦C2­Ópublice¤èªk¨Ó®³¨ìname
+		// privateç„¡æ³•ç›´æ¥çµ¦å¤–éƒ¨çš„äººä½¿ç”¨
+		// é€éä¸‹åˆ—2å€‹publiceæ–¹æ³•ä¾†æ‹¿åˆ°name
 		private String name; 
 		
 		public void setName(String str){
@@ -42,51 +42,51 @@ WTO
 	}
 	
 	```
-2. ©w¸qª«¥óªº¾Ş§@¤¶­±©MÁôÂÃ¹ê§@²Ó¸`
-3. ¨Ï¥Î private, public µ¥ access modifiers
+2. å®šç¾©ç‰©ä»¶çš„æ“ä½œä»‹é¢å’Œéš±è—å¯¦ä½œç´°ç¯€
+3. ä½¿ç”¨ private, public ç­‰ access modifiers
 
-## Ä~©Ó Extends
-1. °ò©ó¬Y­Ó¤÷Ãş§O¹ïª«¥óªº©w¸qÂX¥R
-2. ¥i¥H¼W¥[·sªº¤èªk¤]¥i¥HÂĞ¼g¤÷Ãş§Oªº¤èªk
+## ç¹¼æ‰¿ Extends
+1. åŸºæ–¼æŸå€‹çˆ¶é¡åˆ¥å°ç‰©ä»¶çš„å®šç¾©æ“´å……
+2. å¯ä»¥å¢åŠ æ–°çš„æ–¹æ³•ä¹Ÿå¯ä»¥è¦†å¯«çˆ¶é¡åˆ¥çš„æ–¹æ³•
 ```java
 class B extends A{ }
 ```
 
-## ¤¶­± Interface
-1. ´y­z¤£¦PÃş§O¶¡¬Û¦Pªº¦æ¬°
-2. ¹ê§@»P¤¶­±¤À¶}, ¥H«KÅı¦P­Ó¤¶­±¦ı¤£¦Pªº¹ê§@ª«¥ó¯à°÷¥Î¤@¼Ëªº­±»ªÅı¥~¬É¨Ï¥Î
+## ä»‹é¢ Interface
+1. æè¿°ä¸åŒé¡åˆ¥é–“ç›¸åŒçš„è¡Œç‚º
+2. å¯¦ä½œèˆ‡ä»‹é¢åˆ†é–‹, ä»¥ä¾¿è®“åŒå€‹ä»‹é¢ä½†ä¸åŒçš„å¯¦ä½œç‰©ä»¶èƒ½å¤ ç”¨ä¸€æ¨£çš„é¢è²Œè®“å¤–ç•Œä½¿ç”¨
 	```java
-	public interface Car{ // ³o­Ó¤¶­±¦WºÙ¬°Car
-		// ¦³¨â­Ó¤èªk, ¦ı¨S¦³¹ê§@(ª½±µ¥[();),
-		// ¹³¬O¶}¥X¤@­Ó³W®æ => ³o­Ó¨®¤@©w­n¦³³o¨â­Ó¤èªk 
+	public interface Car{ // é€™å€‹ä»‹é¢åç¨±ç‚ºCar
+		// æœ‰å…©å€‹æ–¹æ³•, ä½†æ²’æœ‰å¯¦ä½œ(ç›´æ¥åŠ ();),
+		// åƒæ˜¯é–‹å‡ºä¸€å€‹è¦æ ¼ => é€™å€‹è»Šä¸€å®šè¦æœ‰é€™å…©å€‹æ–¹æ³• 
 		public void goAhead();
 		public void goBack();
 	}
 	
-	// ©³¤U¹ê§@ ==> ¤~½T©w³o¨â­Ó¤èªk­n°µ¤°»ò¦æ¬°
+	// åº•ä¸‹å¯¦ä½œ ==> æ‰ç¢ºå®šé€™å…©å€‹æ–¹æ³•è¦åšä»€éº¼è¡Œç‚º
 	publice class Ford implements Car{ // keyword: implements
-		// ¹ê§@goAhead(), goBack()
+		// å¯¦ä½œgoAhead(), goBack()
 	}
 	
 	publice class Mazda implements Car{ // keyword: implements
-		// ¹ê§@goAhead(), goBack()
+		// å¯¦ä½œgoAhead(), goBack()
 	}
 	```
-3. ¤¶­±¨S¦³¹ê§@¤èªk¡A©Ò¥H¨S¿ìªk²£¥X¹êÅé(No implements and instances in interface)
+3. ä»‹é¢æ²’æœ‰å¯¦ä½œæ–¹æ³•ï¼Œæ‰€ä»¥æ²’è¾¦æ³•ç”¢å‡ºå¯¦é«”(No implements and instances in interface)
 	
-## ¦h«¬ Polymorphism
-1. ¦P¤@­Ó¸ê®Æ«¬ºA, ¾Ş§@¤£¦Pª«¥ó¹ê¨Ò ==> ¦]¦¹¥i­°§C¹ï¸ê®Æ«¬ºA¾Ş§@ªº¨Ì¿à«×
-2. ¥i¥Î¬É­±©M¤÷Ãş§O¨Ó«Å§iª«¥ó«¬ºA
+## å¤šå‹ Polymorphism
+1. åŒä¸€å€‹è³‡æ–™å‹æ…‹, æ“ä½œä¸åŒç‰©ä»¶å¯¦ä¾‹ ==> å› æ­¤å¯é™ä½å°è³‡æ–™å‹æ…‹æ“ä½œçš„ä¾è³´åº¦
+2. å¯ç”¨ç•Œé¢å’Œçˆ¶é¡åˆ¥ä¾†å®£å‘Šç‰©ä»¶å‹æ…‹
 ```java
-/* ©Ó interface ªº½d¨Ò */
+/* æ‰¿ interface çš„ç¯„ä¾‹ */
 
-// ¥ı§âCarª«¥ó new¥X¨Ó
-// ¦b¦¹½d¨Ò¤§«e°µªº => ·|new¸ò¸ê®Æ«¬ºA¤@¼Ëªº Ex: TestDemo demo = new TestDemo();
-// ¦ı¦]¬°«e­±©Ò´£: "¤¶­±¨S¦³¹ê§@¤èªk, ¤£¯à°÷²£¥Í¹êÅé"
-// ­n²£¥Í¹êÅé, ¥²­n¦³¤@­Óclass¤~¯à²£¥Í¹êÅéª«¥ó
-Car ford = new Ford(); // ³oÃä¹ê»Únew¥X¨Óªºª«¥ó, ¬O¥ÑFord³o­Óclass¹ê²{ªº (interfaceªºFord Class)
-Car mazda = new Mazda(); // ¦PFord
-// ¤£»İ­n¦]¬°¬OfordÁÙ¬Omazda¦Ó¼g¦¨¨â­Ó¤èªk¡A¥u­n¹ï "interface" car ¾Ş§@´N¦æ¤F
+// å…ˆæŠŠCarç‰©ä»¶ newå‡ºä¾†
+// åœ¨æ­¤ç¯„ä¾‹ä¹‹å‰åšçš„ => æœƒnewè·Ÿè³‡æ–™å‹æ…‹ä¸€æ¨£çš„ Ex: TestDemo demo = new TestDemo();
+// ä½†å› ç‚ºå‰é¢æ‰€æ: "ä»‹é¢æ²’æœ‰å¯¦ä½œæ–¹æ³•, ä¸èƒ½å¤ ç”¢ç”Ÿå¯¦é«”"
+// è¦ç”¢ç”Ÿå¯¦é«”, å¿…è¦æœ‰ä¸€å€‹classæ‰èƒ½ç”¢ç”Ÿå¯¦é«”ç‰©ä»¶
+Car ford = new Ford(); // é€™é‚Šå¯¦éš›newå‡ºä¾†çš„ç‰©ä»¶, æ˜¯ç”±Fordé€™å€‹classå¯¦ç¾çš„ (interfaceçš„Ford Class)
+Car mazda = new Mazda(); // åŒFord
+// ä¸éœ€è¦å› ç‚ºæ˜¯fordé‚„æ˜¯mazdaè€Œå¯«æˆå…©å€‹æ–¹æ³•ï¼Œåªè¦å° "interface" car æ“ä½œå°±è¡Œäº†
 
 public void process(Car car){
 	car.goAhead();
@@ -95,26 +95,26 @@ public void process(Car car){
 }
 ```
 
-## ©â¶HÃş§O Abstract class
-1. ¥i¥]§t¹ê§@¤èªk©M¥¼¹ê§@¤èªk 
-    - ¦ı­Y§t¥¼¹ê§@¤èªk => ¤£¥i¥H³Q¹êÅé¤Æ(¤£¥i¥H³Qnew)
-    - ­Y­n§t¥¼¹ê§@¤èªk¥B­n³Q¹êÅé¤Æ, ¥²¶·«Ø¤@­Ó¤lÃş§OµM«áÄ~©Ó¦¹©â¶HÃş§O, ¥B¥²¶·¹ê§@¥¼¹ê§@ªº¤èªk
-2. ¤lÃş§O¥²¶·¹ê§@©â¶HÃş§Oªº©â¶H¤èªk
+## æŠ½è±¡é¡åˆ¥ Abstract class
+1. å¯åŒ…å«å¯¦ä½œæ–¹æ³•å’Œæœªå¯¦ä½œæ–¹æ³• 
+    - ä½†è‹¥å«æœªå¯¦ä½œæ–¹æ³• => ä¸å¯ä»¥è¢«å¯¦é«”åŒ–(ä¸å¯ä»¥è¢«new)
+    - è‹¥è¦å«æœªå¯¦ä½œæ–¹æ³•ä¸”è¦è¢«å¯¦é«”åŒ–, å¿…é ˆå»ºä¸€å€‹å­é¡åˆ¥ç„¶å¾Œç¹¼æ‰¿æ­¤æŠ½è±¡é¡åˆ¥, ä¸”å¿…é ˆå¯¦ä½œæœªå¯¦ä½œçš„æ–¹æ³•
+2. å­é¡åˆ¥å¿…é ˆå¯¦ä½œæŠ½è±¡é¡åˆ¥çš„æŠ½è±¡æ–¹æ³•
 ```java
 public abstract class Ford{
     public void goAhead(){
-        // ¥²¶·¹ê°µ
+        // å¿…é ˆå¯¦åš
     }
     
-    // ¥¼¹ê§@
-    public void openDoor(); // ª½±µ();µ²§ô, ¨Ã¨S¦³¹ê§@
+    // æœªå¯¦ä½œ
+    public void openDoor(); // ç›´æ¥();çµæŸ, ä¸¦æ²’æœ‰å¯¦ä½œ
 }
 ```
 
-## ªx«¬ Generic
-1. ¦h«¬ªº¤@ºØ§Ş¥©
-2. ½sÄ¶´Á¶¡µLªk½T©wµ{¦¡ªº¼¶¼g¤è¦¡, ¦Ó«ö·Ó°õ¦æ´Á¶¡ªºª¬ªp¨M©w
-3. ¤£¥Î¦]¬°¸ê®Æ«¬ºA­­¨î¦Ó¹ê§@¦hºØ¤èªk, ¥u»İ­n¹ê§@¤@ºØ§Y¥i
+## æ³›å‹ Generic
+1. å¤šå‹çš„ä¸€ç¨®æŠ€å·§
+2. ç·¨è­¯æœŸé–“ç„¡æ³•ç¢ºå®šç¨‹å¼çš„æ’°å¯«æ–¹å¼, è€ŒæŒ‰ç…§åŸ·è¡ŒæœŸé–“çš„ç‹€æ³æ±ºå®š
+3. ä¸ç”¨å› ç‚ºè³‡æ–™å‹æ…‹é™åˆ¶è€Œå¯¦ä½œå¤šç¨®æ–¹æ³•, åªéœ€è¦å¯¦ä½œä¸€ç¨®å³å¯
 4. keyword: <T> & T : T means Data "Type"
 
 ```java
@@ -123,11 +123,11 @@ public class numbers<T>{
         System.out.println(num1+num2);
     }
 }
-// T «üªº¬O¶Ç¤Jªº¸ê®Æ«¬ºA
+// T æŒ‡çš„æ˜¯å‚³å…¥çš„è³‡æ–™å‹æ…‹
 /*
- * ¤@¯ë±¡ªp¦Ó¨¥­Y§Ú­n¶Ç¤J¾ã¼Æ, ´N¥²¶·¼g¤@­Ó (int num1, int num2) ªº¤èªk
- * ­Y¤µ¤Ñ­n¶Ç¤J¯BÂI¼Æ, ­n¥t¥~¦A¼g¤@­Ó (double num1, double num2) ªº¤èªk
- * ¦ı¨Ï¥Îªx«¬ªº¸Ü, ¥u­n¼g (T num1, T num2) ¤@­Ó, ¦Óµ{¦¡·|«ö·Ó°õ¦æ®É§A¶Ç¤Jªº¥h°µ¨M©w
+ * ä¸€èˆ¬æƒ…æ³è€Œè¨€è‹¥æˆ‘è¦å‚³å…¥æ•´æ•¸, å°±å¿…é ˆå¯«ä¸€å€‹ (int num1, int num2) çš„æ–¹æ³•
+ * è‹¥ä»Šå¤©è¦å‚³å…¥æµ®é»æ•¸, è¦å¦å¤–å†å¯«ä¸€å€‹ (double num1, double num2) çš„æ–¹æ³•
+ * ä½†ä½¿ç”¨æ³›å‹çš„è©±, åªè¦å¯« (T num1, T num2) ä¸€å€‹, è€Œç¨‹å¼æœƒæŒ‰ç…§åŸ·è¡Œæ™‚ä½ å‚³å…¥çš„å»åšæ±ºå®š
  */
 ```
 
@@ -135,24 +135,24 @@ public class numbers<T>{
 
 # UML (Undefined Modeling Language)
 
-IT ¯à°÷¾\Åª¡B¶Ç¹F¨t²Î²ÕÂ´¬[ºcªº³]­p³W®æ
-- ¨Ï¥Î®×¨Ò¹Ï (Use-case diagram)
-  1. Actor(°Ñ»PªÌ) : ÅU«È¡B»È¦æ¥D¾÷
-  2. Use Case (¨Ï¥Î®×¨Ò) : ·|¥Î¨ì ¬d¸ß¾lÃB¡B´£´Ú¡BÂà±b
-    ![](https://i.imgur.com/8sNSaAy.png)
-- Ãş§O¹Ï (Class diagram)
-    ![Ãş§O¹Ï](https://s4.itho.me/sites/default/files/images/%E5%9C%9617(5).jpg)
-  °Ñ¦Ò: https://www.ithome.com.tw/node/62186
-- ´`§Ç¹Ï (Sequence diagram)
-    ![´`§Ç¹Ï](https://3.bp.blogspot.com/-Y3avfHLEMc8/XIHl-cNpDOI/AAAAAAAAJTE/dW0OYYqFJZ0xUozFfzGj-4GFlsTfws57wCEwYBhgL/s1600/sequence-diagrams-2.png)
-    °Ñ¦Ò: https://terryjryeh.blogspot.com/2019/03/uml-sequence-diagrams-8.html
-- ª¬ºA¹Ï (Statechart diagram)
-    ![ª¬ºA¹Ï](https://online.visual-paradigm.com/repository/images/e6ef1cbb-8cf6-40e3-8bae-aa4859f0d12f/state-machine-diagram-design/state-machine-diagram-for-online-bookstore.png)
+IT èƒ½å¤ é–±è®€ã€å‚³é”ç³»çµ±çµ„ç¹”æ¶æ§‹çš„è¨­è¨ˆè¦æ ¼
+- ä½¿ç”¨æ¡ˆä¾‹åœ– (Use-case diagram)  
+  1. Actor(åƒèˆ‡è€…) : é¡§å®¢ã€éŠ€è¡Œä¸»æ©Ÿ  
+  2. Use Case (ä½¿ç”¨æ¡ˆä¾‹) : æœƒç”¨åˆ° æŸ¥è©¢é¤˜é¡ã€ææ¬¾ã€è½‰å¸³  
+    ![](https://i.imgur.com/8sNSaAy.png)  
+- é¡åˆ¥åœ– (Class diagram)  
+    ![é¡åˆ¥åœ–](https://s4.itho.me/sites/default/files/images/%E5%9C%9617(5).jpg)  
+  åƒè€ƒ: https://www.ithome.com.tw/node/62186  
+- å¾ªåºåœ– (Sequence diagram)  
+    ![å¾ªåºåœ–](https://3.bp.blogspot.com/-Y3avfHLEMc8/XIHl-cNpDOI/AAAAAAAAJTE/dW0OYYqFJZ0xUozFfzGj-4GFlsTfws57wCEwYBhgL/s1600/sequence-diagrams-2.png)  
+    åƒè€ƒ: https://terryjryeh.blogspot.com/2019/03/uml-sequence-diagrams-8.html  
+- ç‹€æ…‹åœ– (Statechart diagram)  
+    ![ç‹€æ…‹åœ–](https://online.visual-paradigm.com/repository/images/e6ef1cbb-8cf6-40e3-8bae-aa4859f0d12f/state-machine-diagram-design/state-machine-diagram-for-online-bookstore.png)  
 
 ---
 
-# ³]­p¼Ò¦¡ Design pattern
-­n«ç»ò¨Ï¥Îª«¥ó¾É¦V¨Ó¸Ñ¨M³nÅé¤uµ{ªº°İÃD¡H
-1. ³]­p¼Ò¦¡¬O¦b¸Ñ¨M¦UºØ°İÃD¤¤ªº¸gÅç·J¾ã
-2. ±N¤ÏÂĞ¥X²{ªº¦UºØ°İÃD´£¥Xªº¸Ñ¨M¤è®×
-3. GoF ´£¥X 23 ºØ¸g¨åªº³]­p¼Ò¦¡
+# è¨­è¨ˆæ¨¡å¼ Design pattern
+è¦æ€éº¼ä½¿ç”¨ç‰©ä»¶å°å‘ä¾†è§£æ±ºè»Ÿé«”å·¥ç¨‹çš„å•é¡Œï¼Ÿ
+1. è¨­è¨ˆæ¨¡å¼æ˜¯åœ¨è§£æ±ºå„ç¨®å•é¡Œä¸­çš„ç¶“é©—å½™æ•´
+2. å°‡åè¦†å‡ºç¾çš„å„ç¨®å•é¡Œæå‡ºçš„è§£æ±ºæ–¹æ¡ˆ
+3. GoF æå‡º 23 ç¨®ç¶“å…¸çš„è¨­è¨ˆæ¨¡å¼
