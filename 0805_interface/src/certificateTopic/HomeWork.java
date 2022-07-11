@@ -55,4 +55,6 @@ public class HomeWork {
  * 原程式的testFoo方法做了fubar(new A())的動作，這裡的A是在testFoo方法中生成的，因此指的便是方法中的innerClass(最接近呼叫點層級)
  * 如果把16.17.18行去掉，不影響原本結果
  * 如果把24.25.26行去掉，原本方法中指的A就會是class中的innerClass A (最接近呼叫點層級)
+ * 
+ * => B, E, F
  */
