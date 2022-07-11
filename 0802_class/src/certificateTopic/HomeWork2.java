@@ -25,7 +25,7 @@ class Lois extends HomeWork2{
 	// insert code here
 }
 
-/* 
+/**
  * 修飾子存取權限: (高<--->低) public > protected > default > private
  * override時子類別調用父類別的修飾子存取權限不能比原本父類別的還低
  * (Cannot reduce the visibility of the inherited method from HomeWork2) 
