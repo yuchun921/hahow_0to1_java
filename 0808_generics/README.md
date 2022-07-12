@@ -50,9 +50,9 @@ public class Foo<T1, T2>{
 	Doo < ? super List> // 要放到Doo的資料型別必須是List的父類別
 	```  
 
---
+---
 
 ## Homework 證照題目
-![證照考題](https://i.imgur.com/8CMiYsP.png)
+![證照考題](https://i.imgur.com/8CMiYsP.png)  
 ==> answer in GenericB.java
 
