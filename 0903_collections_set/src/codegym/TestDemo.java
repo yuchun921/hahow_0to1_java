@@ -1,32 +1,30 @@
 package codegym;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TestDemo {
 
 	public static void main(String[] args) {
-		/* Set example */
+		/* Map example */
+		Map<String, Integer> map = new HashMap<String, Integer>();
 
-		Set<String> set = new HashSet<String>();
+		/* Add key, value to map */
+		map.put("age", 27);
+		map.put("height", 170);
+		map.put("weight", 68);
+		map.put("number", 3456);
 
-		/* Add elements to set */
-		set.add("test1");
-		set.add("test2");
-		set.add("test3");
-		set.add("test4");
-		set.add("test5");
+		/* Get value from key in map */
+		System.out.println("Age: " + map.get("age"));
 
-		/* Remove elements: remove(index) */
-		set.remove("test3");
-		
-		/* size (set length) */
-		System.out.println("set size is: "+set.size());
+		/* Use key to remove key, value pair */
+		map.remove("number");
 
-		/* Print each elements */
-		System.out.println("\nPrint each element in set:");
-		for (String s: set) {
-			System.out.println(s);
+		/* Use keySet() to get value, and print it */
+		System.out.println("\nEach value:");
+		for (String key : map.keySet()) {
+			System.out.println(map.get(key));
 		}
 
 	}
